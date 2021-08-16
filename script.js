@@ -32,7 +32,9 @@ function displayMovies(movies) {
 
         <div class="details">
           <h2 class="title">${movie.title}</h2>
-          <p class="rate">Rating: <span class="rating">${movie.vote_average}</span></p>
+          <p class="rate">Evaluation: <span class="rating">${
+            movie.vote_average
+          }</span></p>
           <p class="overview">
             ${movie.overview}
           </p>
